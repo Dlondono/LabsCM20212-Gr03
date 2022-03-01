@@ -11,9 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        bienvenida.setOnClickListener{
             val intent: Intent = Intent(this, PersonalDataActivity::class.java)
             startActivity(intent)
-        }
     }
 }

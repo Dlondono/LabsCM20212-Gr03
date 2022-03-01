@@ -7,7 +7,6 @@ import android.util.Log
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.*
-import android.widget.TextView.OnEditorActionListener
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.activity_personal_data.*
@@ -24,7 +23,6 @@ class PersonalDataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_personal_data)
-
         if (savedInstanceState != null) {
             year = savedInstanceState.getInt("year");
             month = savedInstanceState.getInt("month");

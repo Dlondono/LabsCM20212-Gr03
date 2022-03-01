@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:contentDescription="@string/Gender_Image"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/infoTxt"
@@ -37,8 +37,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
-            android:drawableStart="@android:drawable/ic_menu_myplaces"
-            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:drawableStart="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_person"
             android:ems="10"
             android:hint="@string/nombres"
             android:inputType="textCapSentences" />
@@ -48,8 +48,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
-            android:drawableStart="@android:drawable/ic_menu_myplaces"
-            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:drawableStart="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_person"
             android:ems="10"
             android:hint="@string/apellidos"
             android:imeOptions="actionDone"
@@ -66,13 +66,6 @@
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-        <ImageView
-            android:id="@+id/gender_image"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:contentDescription="@string/Gender_Image" />
 
         <TextView
             android:id="@+id/sexoTxt"
@@ -125,7 +118,7 @@
                 android:gravity="center"
                 android:text="@string/fechaNacimiento"
                 android:textStyle="bold"
-                app:drawableStartCompat="@android:drawable/ic_menu_my_calendar" />
+                app:drawableStartCompat="@android:drawable/ic_menu_month" />
 
             <TextView
                 android:id="@+id/fechaId"
@@ -145,6 +138,8 @@
             android:id="@+id/cambioFechaInt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
+            android:backgroundTint="#0E7712"
             android:text="@string/cambiar"
             tools:ignore="UnknownId" />
 
@@ -179,8 +174,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
         android:layout_marginBottom="132dp"
+        android:backgroundTint="#0E7712"
         android:text="@string/continuar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

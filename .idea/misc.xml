@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/LabsCM20212-Gr03/Lab1-UI/src/main/res/layout/activity_contact_data.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/LabsCM20212-Gr03/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/LabsCM20212-Gr03/Lab1-UI/src/main/res/layout/activity_personal_data.xml" value="0.25" />
         <entry key="..\:/Users/herme/AndroidStudioProjects/Labs20212Gr03/Lab1-UI/src/main/res/layout/activity_contact_data.xml" value="0.25" />
         <entry key="..\:/Users/herme/AndroidStudioProjects/Labs20212Gr03/Lab1-UI/src/main/res/layout/activity_contact_data_land.xml" value="0.25" />
         <entry key="..\:/Users/herme/AndroidStudioProjects/Labs20212Gr03/Lab1-UI/src/main/res/layout/activity_main.xml" value="0.2359375" />
